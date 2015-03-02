@@ -1,0 +1,264 @@
+
+body{
+	margin:auto;
+	font-family: arial, helvetica, sans-serif;
+	background-image: url("images/Background.jpg");
+	background-position: center top;
+	background-size: cover;
+	background-color: transparent;
+	width:90%;
+}
+
+/* =============================================================================
+   Topbar stuff
+ ========================================================================== */
+
+#topbar{
+	width:100%;
+	height:40px;
+	color:white;
+	background-image: url("images/Background.jpg");
+	background-blend-mode: multiply;
+}
+
+.fixedwidth{
+	width: 1050px;
+	margin:0 auto;
+}
+
+#logodiv{
+	padding-top:5px;
+	float:left;
+	padding-right: 10px;
+	border-right: 1px solid black;
+}
+
+#searchdiv{
+	float: right;
+	padding: 5px 0 0 10px;
+}
+
+#searchdiv input{
+	height: 25px;
+	border:none;
+	font-size: 0.9em;
+	padding-left: 10px;
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+.break{
+	clear:both;
+}
+
+#newsbar{	
+	background-image:url("https://scontent-ord.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/10676236_512207908918619_2592275831949457240_n.jpg?oh=4e45c7efaca76a024bdfa0cc1d20e748&oe=557E4F92");
+	width:100%;
+	height:80px;
+	background-position: center top;
+	color:white;
+}
+
+#newsbar p{
+	margin:0;
+	padding: 0;
+	padding-top:10px;
+	float:left;
+}
+
+#newsheader{
+	
+}
+
+/*#newsheader{
+	font-size: 3em;
+	font-family:Lucida Sans Unicode;
+}
+
+#records{
+	font-size: 0.7em;
+	padding-left: 10px;
+	font-family: "Lucida Console";
+}*/
+
+#facebook {
+	float: right;
+	margin-top: 30px;
+}
+
+#facebook img{
+	height: 25px;
+	opacity: 0.6;
+	filter:alpha(opacity=40);
+}
+
+#facebook img:hover{
+	opacity:1.0;
+	filter:alpha(opacity=100)
+}
+
+#twitter {
+	float: right;
+	margin-top: 30px;
+}
+
+#twitter img{
+	height: 25px;
+	opacity: 0.6;
+	filter:alpha(opacity=40);
+}
+
+#twitter img:hover{
+	opacity:1.0;
+	filter:alpha(opacity=100)
+}
+
+#soundcloud {
+	float: right;
+	margin-top: 30px;
+}
+
+#soundcloud img{
+	height: 25px;
+	opacity: 0.6;
+	filter:alpha(opacity=40);
+}
+
+#soundcloud img:hover{
+	opacity:1.0;
+	filter:alpha(opacity=100)
+}
+
+/* =============================================================================
+ nav-main Bar
+========================================================================== */
+#nav-main {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #fff;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: #eee;
+    padding: 5px;
+    height: 38px;
+    width: 600px;
+    font-weight: bold;
+    border-style:solid;
+    border-width:4px;
+    border-color: #000;
+}
+#nav-main ul {
+    padding: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+   
+}
+#nav-main ul li {
+    border-left: 1px solid #990000; /* Added border to nav-main li */
+  	display: block;
+  	float: left;
+  	height: 40px;
+}
+
+nav-main li:first-child {
+  border-left: none;
+}
+#nav-main li a:first-child, #main-nav-main li a:nth-child(2) {
+  width: 50px;
+}
+
+#nav-main li a:nth-child(3) {
+  width: 50px;
+}
+
+#nav-main li a:last-child {
+  width: 50px;
+}
+
+#nav-main li a:hover {
+  height: 30px;
+}
+#nav-main ul li a {
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    margin: 0px;
+}
+#nav-main ul li a:hover {
+    color: #CD0000;
+}
+.outer{
+	float: right;
+    right: 50%;
+    position: relative;
+}
+.inner{
+    float: right;
+    right: -50%;
+    position: relative;
+}
+.clearboth{
+	clear:both;
+}
+.white-border:hover {
+	border-bottom:5px solid black;
+}
+
+/* =============================================================================
+	Page Content
+==============================================================================*/
+
+.break2{
+		clear:both;
+		padding-bottom: 10px;
+	}
+	
+	.pageContent{
+		width:1080px;
+		height:700px;
+		margin: auto;
+		color: black;
+	}
+	
+	#topBox img{		
+		display:block;
+    	margin:auto;
+	}
+	
+	.break3{
+		clear:both;
+		padding-bottom: 10px;
+	}
+	
+	#box2{
+		background-color: white;
+		height: 465px;
+		border-style: solid;
+    	border-width: 1px;
+		border-color: #d3d3d3;
+	}
+	
+	#box2News{
+		background-image:url(images/subscribeBox.jpg);
+		height: 35px;
+		width: 1040px;
+		color: white;
+		margin: auto;
+		position:relative;
+		top: 10px;
+	}
+	
+	#box2News img {
+		position:relative;
+		left:5px;
+		top: 3px;
+	}
+	
+	#box2 iframe{
+		position:relative; 
+		top: 20px; 
+		left: 20px;	
+	}

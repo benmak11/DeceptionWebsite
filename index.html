@@ -6,6 +6,8 @@
 	<meta charset="utf-8" />
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<script src="https://apis.google.com/js/platform.js"></script>
+	<script src="https://apis.google.com/js/platform.js"></script>
 
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
 
@@ -58,7 +60,7 @@
 
 			
 
-    		<div class="pageContent">
+    		<div class="content">
 
     			<div id="nav-main" align="center">
      
@@ -77,20 +79,37 @@
 
     			</div><!-- eo nav-main div -->
 
-    			<div class="break2"></div>
+    			<div class="break"></div>
 
-            	<div id="topBox">  
+            	<div id="main-box">  
                 	<img align="center" src="images/mainbox.jpg">
                 </div>
                 
-                <div class="break3"></div>
+                <div class="break"></div>
             
-                <div id ="box2">
-                	<div id="box2News">
+                <div id ="deception-tv-box">
+                	<div id="box-content">
                     	<img src="images/deceptiontv.png">
                     </div>
                     
-                	<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLZLCdUElhzFpvkoMLUbEvAfS1oVEUj4Vh" frameborder="0" allowfullscreen></iframe>
+                    <div id="video-player">
+                		<iframe width="600" height="364" src="https://www.youtube.com/embed/videoseries?list=PLZLCdUElhzFpvkoMLUbEvAfS1oVEUj4Vh" frameborder="0" allowfullscreen></iframe>
+                	</div>
+
+                	<div class="break"></div>
+
+                	<div class="box-social-area">
+
+
+						<a class="twitter-follow-button" href="https://twitter.com/deceptionrec"  data-show-count="true" data-lang-en="en" data-show-screen-name="true" target="_blank">Follow @deceptionrec</a>
+
+						<div class="g-ytsubscribe" data-channelid="UCrbIAmVgPGwzUSsAJ4InC2w" data-layout="full" data-theme="dark" data-count="default">
+
+							<a class="youtube-follow-button" href="http://www.youtube.com/subscription_center?add_user=deceptionrec" class="" target="_blank"><img src="images/subscribeButton.jpg"></a>
+							
+						</div>
+
+					</div>
                 </div>
             
             </div>
@@ -99,6 +118,21 @@
 
 	</div>	<!-- eo container div -->
 
+	<script>
+		window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));
+
+		function onYtEvent(payload) {
+    		var logElement = document.getElementById('ytsubscribe-events-log');
+    			if (payload.eventType == 'subscribe') {
+      				logElement.innerHTML = 'You will love this channel! :D'
+    			} else if (payload.eventType == 'unsubscribe') {
+      				logElement.innerHTML = 'We are sorry you are unsubscribing. :('
+    			}
+    		if (window.console) {
+      			window.console.log('ytsubscribe event: ', payload);
+    		}
+  		}
+	</script>
 
 </body>
 </html>

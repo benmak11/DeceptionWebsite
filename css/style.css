@@ -49,6 +49,7 @@ body{
 
 .break{
 	clear:both;
+	padding-bottom: 10px;
 }
 
 #newsbar{	
@@ -210,55 +211,64 @@ nav-main li:first-child {
 /* =============================================================================
 	Page Content
 ==============================================================================*/
+	
+.content{
+	width:1080px;
+	height:700px;
+	margin: auto;
+	color: black;
+}
+	
+#main-box img{		
+	display:block;
+   	margin:auto;
+}
+	
+#deception-tv-box{
+	background-color: white;
+	height: 465px;
+	border-style: solid;
+   	border-width: 1px;
+   	border:1px solid #d3d3d3;
+	padding:10px 15px 10px 15px;
+	position:relative;
+	border-color: #d3d3d3;
+}
+	
+#box-content{
+	background-image:url(images/subscribeBox.jpg);
+	height: 35px;
+	width: 1040px;
+	color: white;
+	margin: auto;
+	position:relative;
+	top: 10px;
+}
+	
+#box-content img {
+	position:relative;
+	left:5px;
+	top: 3px;
+}
+	
+#deception-tv-box iframe{
+	position:relative; 
+	top: 20px; 
+	left: 20px;	
+}
 
-.break2{
-		clear:both;
-		padding-bottom: 10px;
+#video-player {
+	float:left;
+}
+
+.box-social-area {
+	margin:10px 0 10px 0;
 	}
-	
-	.pageContent{
-		width:1080px;
-		height:700px;
-		margin: auto;
-		color: black;
-	}
-	
-	#topBox img{		
-		display:block;
-    	margin:auto;
-	}
-	
-	.break3{
-		clear:both;
-		padding-bottom: 10px;
-	}
-	
-	#box2{
-		background-color: white;
-		height: 465px;
-		border-style: solid;
-    	border-width: 1px;
-		border-color: #d3d3d3;
-	}
-	
-	#box2News{
-		background-image:url(images/subscribeBox.jpg);
-		height: 35px;
-		width: 1040px;
-		color: white;
-		margin: auto;
-		position:relative;
-		top: 10px;
-	}
-	
-	#box2News img {
-		position:relative;
-		left:5px;
-		top: 3px;
-	}
-	
-	#box2 iframe{
-		position:relative; 
-		top: 20px; 
-		left: 20px;	
-	}
+
+.box-social-area > * {
+	float:left;
+	margin:0 10px 0 0;
+}
+.youtube-follow-button{
+	padding-top: 10px;
+}

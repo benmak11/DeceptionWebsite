@@ -6,7 +6,12 @@ body{
 	background-position: center top;
 	background-size: cover;
 	background-color: transparent;
-	width:90%;
+	width:100%;
+}
+
+#wrapper{
+	width:100%;
+	height:100%;
 }
 
 /* =============================================================================
@@ -209,12 +214,12 @@ nav-main li:first-child {
 }
 
 /* =============================================================================
-	Page Content
+	Content
 ==============================================================================*/
 	
 .content{
-	width:1080px;
-	height:700px;
+	width:900px;
+	height:auto;
 	margin: auto;
 	color: black;
 }
@@ -222,6 +227,7 @@ nav-main li:first-child {
 #main-box img{		
 	display:block;
    	margin:auto;
+   	width:900px;
 }
 	
 #deception-tv-box{
@@ -238,11 +244,10 @@ nav-main li:first-child {
 #box-content{
 	background-image:url(images/subscribeBox.jpg);
 	height: 35px;
-	width: 1040px;
+	width: 850px;
 	color: white;
 	margin: auto;
 	position:relative;
-	top: 10px;
 }
 	
 #box-content img {
@@ -258,17 +263,159 @@ nav-main li:first-child {
 }
 
 #video-player {
-	float:left;
+	position:center;
+	float:center;
+	padding-left: 50px;
 }
 
 .box-social-area {
-	margin:10px 0 10px 0;
-	}
+	margin:auto;
+	position: inherit;
+}
 
 .box-social-area > * {
 	float:left;
-	margin:0 10px 0 0;
+	margin:0 0 0 0;
 }
 .youtube-follow-button{
-	padding-top: 10px;
+	padding-top: 20px;
+}
+
+/* =============================================================================
+	Content-Bottom
+==============================================================================*/
+
+#content-bottom{
+	width: 900px;
+	height:auto;
+	position:relative;
+	margin:25px 0 0 0;
+}
+
+div{
+	display: block;
+}
+body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+/*Facebook-box div*/
+.box-left{
+	float: left;
+}
+
+.twobox{
+	width:45%;
+}
+
+.box {
+	background: #fff;
+	background-image: initial;
+	background-position-x: initial;
+	background-position-y: initial;
+	background-size: initial;
+	background-repeat-x: initial;
+	background-repeat-y: initial;
+	background-attachment: initial;
+	background-origin: initial;
+	background-clip: initial;
+	background-color: rgb(255, 255, 255);
+	border: 1px solid #d3d3d3;
+	padding: 10px 15px 10px 15px;
+	position: relative;
+}
+
+/*box-header div*/
+.box-header {
+	padding: 5px;
+	height: 24px;
+	background: url(images/DeceptionLogo.png) 0 0 repeat-x;
+	margin-bottom: 12px;
+}
+.box-header a.headerlink {
+	float: none;
+}
+a:visited {
+	color: #000;
+}
+.box-header > div, .box-header a, .box-header iframe {
+	float: right;
+}
+.box-header > *:not(h3) {
+	float: right;
+}
+a {
+	color: #000;
+}
+a {
+	text-decoration: underline;
+}
+body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+* {
+	padding: 0;
+	margin: 0;
+}
+
+/*h3 styling*/
+.box .box-header h3 {
+	background: url(images/DeceptionLogoSmall.jpg) 0 0 no-repeat;
+	width: auto;
+	height: 24px;
+}
+.box-header h3 {
+	display: inline-block;
+	float: left;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-indent: 30px;
+	margin: 0;
+	color: #fff;
+	line-height: 22px;
+}
+h3 {
+	font-size: 1.5em;
+	line-height: 1;
+	margin-bottom: 1em;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	color: #000;
+}
+* {
+	padding: 0;
+	margin: 0;
+}
+
+/*Cufon styling*/
+h4 {
+display: inline!important;
+display: inline-block!important;
+position: relative!important;
+vertical-align: middle!important;
+font-size: 1px!important;
+line-height: 1px!important;
+}
+h4 {
+text-indent: 0!important;
+}
+* {
+padding: 0;
+margin: 0;
 }

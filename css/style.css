@@ -1,11 +1,10 @@
-
 body{
 	margin:auto;
 	font-family: arial, helvetica, sans-serif;
-	background-image: url("images/Background.jpg");
+	background-cikir: white;
 	background-position: center top;
 	background-size: cover;
-	background-color: transparent;
+	background-image:url(../images/Background2.jpg);
 	width:100%;
 }
 
@@ -15,86 +14,43 @@ body{
 }
 
 /* =============================================================================
-   Topbar stuff
+   Header stuff
  ========================================================================== */
-
-#topbar{
-	width:100%;
-	height:40px;
-	color:white;
-	background-image: url("images/Background.jpg");
-	background-blend-mode: multiply;
-}
-
-.fixedwidth{
-	width: 1050px;
-	margin:0 auto;
-}
-
-#logodiv{
-	padding-top:5px;
-	float:left;
-	padding-right: 10px;
-	border-right: 1px solid black;
-}
-
-#searchdiv{
-	float: right;
-	padding: 5px 0 0 10px;
-}
-
-#searchdiv input{
-	height: 25px;
-	border:none;
-	font-size: 0.9em;
-	padding-left: 10px;
-	background-repeat: no-repeat;
-	background-position: right center;
-}
-
 .break{
 	clear:both;
 	padding-bottom: 10px;
 }
 
-#newsbar{	
-	background-image:url("https://scontent-ord.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/10676236_512207908918619_2592275831949457240_n.jpg?oh=4e45c7efaca76a024bdfa0cc1d20e748&oe=557E4F92");
-	width:100%;
+#header{	
+	background-image:url(../images/headerBackground.jpg);
+	width:900px;
 	height:80px;
 	background-position: center top;
 	color:white;
+	margin:auto;
 }
 
-#newsbar p{
+#header p{
 	margin:0;
 	padding: 0;
 	padding-top:10px;
 	float:left;
 }
 
-#newsheader{
-	
+#header img{
+	position:relative;
+	left: 10px;
 }
-
-/*#newsheader{
-	font-size: 3em;
-	font-family:Lucida Sans Unicode;
-}
-
-#records{
-	font-size: 0.7em;
-	padding-left: 10px;
-	font-family: "Lucida Console";
-}*/
 
 #facebook {
 	float: right;
 	margin-top: 30px;
+	padding-right:40px;
 }
 
 #facebook img{
 	height: 25px;
-	opacity: 0.6;
+	opacity: 0.8;
 	filter:alpha(opacity=40);
 }
 
@@ -110,7 +66,7 @@ body{
 
 #twitter img{
 	height: 25px;
-	opacity: 0.6;
+	opacity: 0.8;
 	filter:alpha(opacity=40);
 }
 
@@ -126,7 +82,7 @@ body{
 
 #soundcloud img{
 	height: 25px;
-	opacity: 0.6;
+	opacity: 0.8;
 	filter:alpha(opacity=40);
 }
 
@@ -138,79 +94,24 @@ body{
 /* =============================================================================
  nav-main Bar
 ========================================================================== */
-#nav-main {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    color: #fff;
-    margin-left:auto;
-    margin-right:auto;
-    background-color: #eee;
-    padding: 5px;
-    height: 38px;
-    width: 600px;
-    font-weight: bold;
-    border-style:solid;
-    border-width:4px;
-    border-color: #000;
-}
-#nav-main ul {
-    padding: 0px;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-   
-}
-#nav-main ul li {
-    border-left: 1px solid #990000; /* Added border to nav-main li */
-  	display: block;
-  	float: left;
-  	height: 40px;
+
+
+.navbar-xs .navbar-brand{ 
+	padding: 0px 12px;
+	font-size: 16px;
+	line-height: 28px; 
 }
 
-nav-main li:first-child {
-  border-left: none;
-}
-#nav-main li a:first-child, #main-nav-main li a:nth-child(2) {
-  width: 50px;
-}
-
-#nav-main li a:nth-child(3) {
-  width: 50px;
+.navbar-xs .navbar-nav > li > a {  
+	padding-top: 0px; 
+	padding-bottom: 0px; 
+	line-height: 28px; 
 }
 
-#nav-main li a:last-child {
-  width: 50px;
-}
-
-#nav-main li a:hover {
-  height: 30px;
-}
-#nav-main ul li a {
-    text-decoration: none;
-    color: #000;
-    text-align: center;
-    display: block;
-    padding: 10px;
-    margin: 0px;
-}
-#nav-main ul li a:hover {
-    color: #CD0000;
-}
-.outer{
-	float: right;
-    right: 50%;
-    position: relative;
-}
-.inner{
-    float: right;
-    right: -50%;
-    position: relative;
-}
-.clearboth{
-	clear:both;
-}
-.white-border:hover {
-	border-bottom:5px solid black;
+@media (min-width: 900px) {
+    .container-fluid{
+        max-width: 900px;
+    }
 }
 
 /* =============================================================================
@@ -218,7 +119,7 @@ nav-main li:first-child {
 ==============================================================================*/
 	
 .content{
-	width:900px;
+	width:100%;
 	height:auto;
 	margin: auto;
 	color: black;
@@ -230,192 +131,45 @@ nav-main li:first-child {
    	width:900px;
 }
 	
-#deception-tv-box{
-	background-color: white;
-	height: 465px;
-	border-style: solid;
-   	border-width: 1px;
-   	border:1px solid #d3d3d3;
-	padding:10px 15px 10px 15px;
-	position:relative;
-	border-color: #d3d3d3;
-}
-	
-#box-content{
-	background-image:url(images/subscribeBox.jpg);
-	height: 35px;
-	width: 850px;
-	color: white;
-	margin: auto;
-	position:relative;
-}
-	
-#box-content img {
-	position:relative;
-	left:5px;
-	top: 3px;
-}
-	
-#deception-tv-box iframe{
-	position:relative; 
-	top: 20px; 
-	left: 20px;	
+#slider-main {
+	display:block;
+   	margin:auto;
+   	width:100%;
+	height: 478px;	
 }
 
-#video-player {
-	position:center;
-	float:center;
-	padding-left: 50px;
-}
-
-.box-social-area {
-	margin:auto;
-	position: inherit;
-}
-
-.box-social-area > * {
-	float:left;
-	margin:0 0 0 0;
-}
-.youtube-follow-button{
-	padding-top: 20px;
+#bottom-box img{		
+	display:block;
+   	margin:auto;
+   	width:900px;
+	padding-bottom: 46px;
 }
 
 /* =============================================================================
-	Content-Bottom
+	Footer
 ==============================================================================*/
-
-#content-bottom{
-	width: 900px;
-	height:auto;
-	position:relative;
-	margin:25px 0 0 0;
+footer {
+	display:block;
+   	margin:auto;
+   	width:100%;	
+	height:30px;
+	background-color: #3c3c3c;
+	bottom: 0px;
+	position: fixed;
+	
 }
 
-div{
-	display: block;
-}
-body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+#footer-content{
+	
+	display:block;
+   	margin:auto;
+   	width:100%;	
+	height:30px;
+	background-color: #3c3c3c;
 }
 
-* {
-	padding: 0;
-	margin: 0;
-}
-
-/*Facebook-box div*/
-.box-left{
-	float: left;
-}
-
-.twobox{
-	width:45%;
-}
-
-.box {
-	background: #fff;
-	background-image: initial;
-	background-position-x: initial;
-	background-position-y: initial;
-	background-size: initial;
-	background-repeat-x: initial;
-	background-repeat-y: initial;
-	background-attachment: initial;
-	background-origin: initial;
-	background-clip: initial;
-	background-color: rgb(255, 255, 255);
-	border: 1px solid #d3d3d3;
-	padding: 10px 15px 10px 15px;
-	position: relative;
-}
-
-/*box-header div*/
-.box-header {
-	padding: 5px;
-	height: 24px;
-	background: url(images/DeceptionLogo.png) 0 0 repeat-x;
-	margin-bottom: 12px;
-}
-.box-header a.headerlink {
-	float: none;
-}
-a:visited {
-	color: #000;
-}
-.box-header > div, .box-header a, .box-header iframe {
-	float: right;
-}
-.box-header > *:not(h3) {
-	float: right;
-}
-a {
-	color: #000;
-}
-a {
-	text-decoration: underline;
-}
-body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-* {
-	padding: 0;
-	margin: 0;
-}
-
-/*h3 styling*/
-.box .box-header h3 {
-	background: url(images/DeceptionLogoSmall.jpg) 0 0 no-repeat;
-	width: auto;
-	height: 24px;
-}
-.box-header h3 {
-	display: inline-block;
-	float: left;
-	font-size: 14px;
-	text-transform: uppercase;
-	text-indent: 30px;
-	margin: 0;
-	color: #fff;
-	line-height: 22px;
-}
-h3 {
-	font-size: 1.5em;
-	line-height: 1;
-	margin-bottom: 1em;
-}
-h1, h2, h3, h4, h5, h6 {
-	font-weight: normal;
-	color: #000;
-}
-* {
-	padding: 0;
-	margin: 0;
-}
-
-/*Cufon styling*/
-h4 {
-display: inline!important;
-display: inline-block!important;
-position: relative!important;
-vertical-align: middle!important;
-font-size: 1px!important;
-line-height: 1px!important;
-}
-h4 {
-text-indent: 0!important;
-}
-* {
-padding: 0;
-margin: 0;
+#footer-content p{
+	text-align: right;
+	color: white;
+	padding-right: 40px;
 }

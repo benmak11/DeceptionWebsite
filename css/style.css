@@ -160,9 +160,8 @@ body{
 ==============================================================================*/
 
 #bottom-content {
-	width: 900px;
+	width: auto;
 	height: auto;
-	position: relative;
 	margin: 25px 0 0 0;
 }
 

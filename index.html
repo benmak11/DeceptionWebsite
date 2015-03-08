@@ -112,35 +112,42 @@
             <span class="sr-only">Next</span>
           </a>
         </div>
-      </div> 
+      </div> <!-- eo slider-main div -->
 
       <div class="break"></div>
 
       <div id="bottom-box"> <a href="#"><img align="center" src="images/bottombox.jpg"></a>
       </div>
 
-      <div class="break"></div>
+      <!--<div class="break"></div>
+
+      <div id="bottom-content">
+        <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FDeceptionRecords&amp;width&amp;height=290&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:290px;" allowTransparency="true"></iframe>
+      </div> -->
 
     </div> <!-- eo content div -->
 
+
     <footer>
       <div id="footer-content">
-        <p>2015 Deception Records | Music Production. All Rights Reserved. &copy;</p>
+        <!--<p>2015 Deception Records | Music Production. All Rights Reserved. &copy;</p>-->
       </div>
     </footer>
   </div> <!-- eo wrapper div -->
 
   <script>
-  window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));
+    window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));
 
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : 'your-app-id',
-      xfbml      : true,
-      version    : 'v2.1'
-    });
-  };
-</script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId      : 'your-app-id',
+        xfbml      : true,
+        version    : 'v2.1'
+      });
+    };
+
+    document.getElementById("footer-content").innerHTML = "<p>&copy;  " + new Date().getFullYear() + " Deception Records | Music Production. All Rights Reserved.</p>";
+  </script>
 
 </body>
 </html>

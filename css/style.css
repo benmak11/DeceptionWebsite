@@ -22,7 +22,7 @@ body{
  ========================================================================== */
 .break{
 	clear:both;
-	padding-bottom: 10px;
+	padding-bottom: 15px;
 }
 
 #header{	
@@ -152,22 +152,53 @@ body{
 	display:block;
    	margin:auto;
    	width:900px;
-	padding-bottom: 46px;
+   	height:auto;
 }
 
 /* =============================================================================
 	bottom-content
 ==============================================================================*/
 
-#bottom-content {
-	width: auto;
+#homepage-bottom-area {
+	width: 900px;
 	height: auto;
-	margin: 25px 0 0 0;
+	position: relative;
+	margin: 0 auto;
+    max-width:900px;
+    padding-top:10px;
+	padding-bottom:80px;
+}
+
+.box-left {
+float: left;
+}
+.twobox {
+width: 45%;
+}
+
+.box-header {
+padding: 5px;
+height: 24px;
+background: black 0 0 repeat-x;
+margin-bottom: 12px;
+}
+
+#twitter-box{
+	float:right;
+}
+
+#facebook-like-box{
+	background-color: white;
 }
 
 /* =============================================================================
 	Footer
 ==============================================================================*/
+
+#footer-break{
+	padding-top: 90px;
+	clear:both;
+}
 footer {
 	display:block;
    	margin:auto;
@@ -176,9 +207,11 @@ footer {
 	background-color: #3c3c3c;
 	bottom: 0px;
 	position: fixed;
-	position:relative; 
 	bottom:0; 
 	z-index:1;
+	position:absolute;
+	bottom:0;
+	left:0;
 }
 
 #footer-content{

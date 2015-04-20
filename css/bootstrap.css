@@ -3858,8 +3858,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
-  height: 15px;
-  width: 500px;
 }
 .nav > li {
   position: relative;
@@ -3868,7 +3866,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a {
   position: relative;
   display: block;
-  padding: 0px 15px;
+  padding: 10px 15px;
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
@@ -4059,7 +4057,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 @media (min-width: 768px) {
   .navbar {
     border-radius: 4px;
-    float:center;
   }
 }
 @media (min-width: 768px) {
@@ -6565,29 +6562,5 @@ button.close {
   .hidden-print {
     display: none !important;
   }
-}
-
-/*  Centering the NavBar */
-
-.navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
-}
-
-.navbar .navbar-collapse {
-  text-align: center;
-}
-
-@media (min-width: 768px) {
-    .navbar .navbar-nav {
-        display: inline-block;
-        float: none;
-        vertical-align: top;
-    }
-
-    .navbar .navbar-collapse {
-        text-align: center;
-    }
 }
 /*# sourceMappingURL=bootstrap.css.map */

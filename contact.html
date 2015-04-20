@@ -20,73 +20,8 @@
   <meta property="twitter:account_id" content="22611082" />
   <link rel="shortcut icon" href="images/favicon.ico" />
   <meta name="viewport" content="width=device-width,initial-scale=1">
-
-  <style type="text/css">
-  .body {
-    width: 576px;
-    margin: 0 auto;
-    display: block;
-    font-size: 100%;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    color: #3a3a3a;
-  }
-
-  h1 {
-    width: 498px;
-    height: 64px;
-    background: #FFFFFF;
-    color: #818185;
-    font-family: bebas;
-    padding: 17px 0px 0px 78px;
-    letter-spacing: 1px;
-    font-size: 2.2em;
-    margin: 0 auto;
-  }
-
-  form {
-    width: 465px;
-    margin: 0 auto;
-    background-color:#FFFFFF; 
-  }
-
-  label {
-    display: block;
-    margin-top: 20px;
-    letter-spacing: 2px;
-    cursor: default;
-  }
-
-  input, textarea {
-    width: 439px;
-    height: 27px;
-    background: #efefef;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border: 1px solid #dedede;
-    padding: 10px;
-    margin-top: 3px;
-    font-size: 0.9em;
-    color: #3a3a3a;
-    padding-left: 10px;
-  }
-
-  textarea {
-    height: 213px;
-    font-family: Arial, Helvetica, sans-serif;
-    background: url(images/textarea-bg.jpg) right no-repeat #efefef;
-  }
-
-  #submit {
-    background: url(images/submit.png);
-    width: 127px;
-    height: 38px;
-    text-indent: -9999px;
-    border: none;
-    margin-top: 20px;
-    cursor: pointer;
-  }
-  </style>
+  
+  
 
 </head>
 
@@ -168,23 +103,23 @@
     <div id="content">
       <section class="body">
 
-        <form class="form" method="post" action="index.php">
-
-          <label>Name</label>
-          <input name="name" placeholder="Type Here">
-
-          <label>Email</label>
-          <input name="email" type="email" placeholder="Type Here">
-
-          <label>Message</label>
-          <textarea name="message" placeholder="Type Here"></textarea>
-
-          <label>*What is 2+2? (Anti-spam)</label>
-          <input name="human" placeholder="Type Here">
-
-          <input id="submit" name="submit" type="submit" value="Submit">
-
-        </form>
+        <div class="block" id="demoform">
+            <h2>Contactform</h2>
+            <form method="POST" enctype="multipart/form-data">
+                <p><label>Subject: *</label> <select name="subject">
+                    <option>Licensing/Synchs</option>
+                    <option>General inquiries</option>
+                    <option>Feedback</option>
+                    <option>Marketing partnerships</option>
+                    <option>Syndication (Business only, NO track submissions)</option>
+                </select></p>
+                    <p><label>Name: *</label> <input type="text" name="naam"></p>
+                    <p><label>E-mail: *</label> <input type="text" name="email"></p>
+                    <p><label>Description: *</label> <textarea name="omschrijving" cols="50" rows="7"></textarea></p>
+                    <p><label>&nbsp;</label> * = These fields are required</p>
+                    <p><label>&nbsp;</label> <input type="submit" value="Submit form"></p>
+            </form>
+            </div>
         
       </section>
 

@@ -9,6 +9,7 @@ body{
     background-attachment:fixed;
     background-position: left top;
     position:absolute; 
+	border-radius: 0px;
 }
 
 #wrapper{
@@ -198,7 +199,6 @@ footer {
 	position: fixed;
 	bottom:0; 
 	z-index:1;
-	position:absolute;
 	bottom:0;
 	left:0;
 }
@@ -251,3 +251,45 @@ footer {
 	max-width: 900px;
 	width: 100%;	
 }
+
+/* =============================================================================
+	CONTACT PAGE
+==============================================================================*/
+div#content div#left div.block {
+  position: relative;
+  width: 668px;
+  border: 1px solid #343434;
+  background: white;
+  padding: 10px;
+  margin-bottom: 5px;
+  overflow: auto;
+}
+
+h2 {
+  color: #ffe100;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+  margin-bottom: 0.5em;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+}
+
+p, div.block li {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+}
+user agent stylesheetp {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+

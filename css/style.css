@@ -103,7 +103,7 @@ body{
 #nav-wrap{
 	margin: 0 auto;
     max-width:900px;
-    height:100%;
+    height:auto;
 }
 
 @media (min-width: 900px) {

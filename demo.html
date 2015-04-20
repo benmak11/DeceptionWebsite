@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="cufon-active cufon-ready">
+<html>
 <head>
 	<title>Deception Records</title>
 
@@ -21,6 +21,8 @@
   <meta property="twitter:account_id" content="22611082" />
   <link rel="shortcut icon" href="images/favicon.ico" />
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  
+  
 
 </head>
 
@@ -78,18 +80,43 @@
     <div class="break"></div>
 
     <div id="content">
-      <h1>
-        <cufon class="cufon cufon-canvas" alt="CONTACT" style="width: 127px; height: 24px;">
-          <canvas width="139" height="24" style="width: 139px; height: 24px; top: 0px; left: -1px;"></canvas>
-          <cufontext>CONTACT</cufontext>
-        </cufon>
-      </h1>
-
-      <p style="margin-bottom:25px;">
-        <strong>Deception Records</strong><br>
-        <a href="https://www.facebook.com/DeceptionRecords" target="_blank">Facebook</a>
-        <br>
-        E-mail: <a href="mailto:contact.deceptionrec@gmail.com">contact.deceptionrec@gmail.com</a></p>
+      
+      <section class="body">
+        <div class="page section-fill">
+          <div class="content">
+            <a href="/"><img id="logo" src="images/demos_pageLlogo.png"></a>
+            <form action="/submit" method="post" class="validate">
+              <div class="login-text">
+                <h1>Demo Submission</h1>
+                <p>Welcome to the Deception Demo Submission page. Please make sure to send us 1 or 2 of your best tracks instead of 20.</p>
+                <p>Don't send Bootlegs, Mash-ups and remixes, just original material! Unfortunately we are not able to respond to each of you. Good luck!</p>
+              </div>
+              <p class="field-row">
+                <span class="field-group">
+                  <label class="hidden" for="email">E-mail</label>
+                  <input type="email" name="email" id="email" class="text required" required="required" autocomplete="off" autocapitalize="off" placeholder="E-mail">
+                </span>
+                <span class="field-errors"></span>
+              </p>
+              <p class="field-row">
+                <span class="field-group">
+                  <label class="hidden" for="soundcloud_private_link">Soundcloud private url</label>
+                  <input type="url" name="soundcloud_private_link" id="soundcloud_private_link" autocomplete="off" autocapitalize="off" class="text required soundcloud-url" placeholder="Soundcloud private url">
+                </span>
+                <span class="field-errors"></span>
+              </p>
+              <p class="field-row">
+                <span class="field-group">
+                  <label class="hidden" for="description">Message</label>
+                  <textarea rows="5" name="description" id="description" maxlength="180" class="textarea" autocomplete="off" placeholder="Message"></textarea>
+                </span>
+                <span class="field-errors"></span>
+              </p>
+              <input type="submit" class="button" value="Submit">
+            </form>
+          </div>
+        </div>
+      </section>
 
     </div> <!-- eo content div-->
 

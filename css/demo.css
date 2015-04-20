@@ -1,0 +1,73 @@
+.body{
+	width: 900px;
+	height: 100%;
+	margin:auto;
+}
+
+.content { margin-left: auto; margin-right: auto; max-width: 32em;  }
+.content-md { margin-left: auto; margin-right: auto; max-width: 50em; margin-top: 4%; margin-bottom: 4%; }
+.field-group { display: block; }
+.error-message { display: inline-block; padding: .5em; margin-bottom: .5em; color: #fff; background: red; font-weight: bold; }
+
+.content-inner { padding: 2em; }
+#logo { margin: 0 auto; padding-right: 30px; max-width: 100%;height: auto;}
+h1 { font-size: 2em; letter-spacing: -2px; font-weight: bold; margin-bottom: 1em; color: #fff; text-align: center; }
+.button { color: #fff; display: inline-block; text-transform: uppercase; font-size: 1.25em; margin-top: .5em; padding: .2em 0; font-weight: bold; border-bottom: 3px solid #fff; }
+.button:hover { color: #ec1668; border-color: #ec1668; }
+
+
+.button-dropdown-holder { display: inline-block; position: relative; }
+.button-dropdown { display: none; }
+
+.dropdown-trigger { z-index: 2; }
+.dropdown-trigger.open:before { -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); transform: rotate(180deg); }
+.open + .button-dropdown { display: block; }
+.button-group .button-dropdown { position: absolute; width: auto; left: 0; top: 40px; }
+.dropdown-trigger:before { content: ''; right: 50%; margin-right: -5px; top: 50%; margin-top: -2px; display: block; position: absolute; width: 0; height: 0; border: 5px solid transparent; border-bottom: none; border-top-color: #000; -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); transform: rotate(0deg); }
+
+.login-text h1 { margin-bottom: .6em; }
+.login-text p { color: #fff; color: rgba(255, 255, 255, .7); margin-bottom: 1em; text-align: center; font-size: 14px; line-height: 1.4em; }
+.login-text { margin-bottom: 2em; }
+
+.field-row { margin-bottom: .5em; }
+.text { height: 30px; background: #333; width: 100%; padding: 0 7px; color: #fff; }
+.textarea { background: #333; width: 100%; padding: 7px; font-family: Helvetica; color: #fff; }
+.text:focus, .textarea:focus { background: #555; }
+form { padding: 0 2em 2em; }
+a { color: #fff; }
+.field-errors { display: none; }
+.field-row.error .field-errors { display: block; }
+.field-errors label { display: inline-block; background: red; color: #fff; padding: .5em; font-size: .825em; font-weight: bold; text-transform: uppercase; }
+
+.error404 { padding: 1em; text-align: center; }
+.message.error { background: red; color: #fff; padding: 10px; margin-bottom: 20px; }
+
+html, body { height: 100%; }
+.overlay { display: none; height: 100%; z-index: 9999999999; position: relative; }
+.overlay, .overlay-outer, .overlay-inner { height: 100%; }
+.overlay-box { min-height: 100%; background: #fff; margin: auto; max-width: 480px; margin: 0 auto; position: relative; visibility: hidden; }
+.overlay.open { display: block; }
+.overlay-is-open .site { position: fixed; width: 100%; }
+.overlay-is-open:before { content: ''; position: absolute; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, .8); z-index: 9999999; }
+.overlay-close-button { display: block; width: 40px; height: 40px; line-height: 40px; text-align: center; color: #fff; font-size: 30px; display: block; position: absolute; right: 0; top: 0; transition: transform 0.25s ease-in-out, opacity 0.25s ease-in-out; -moz-transition: transform 0.25s ease-in-out, opacity 0.25s ease-in-out; -webkit-transition: -webkit-transform 0.25s ease-in-out, opacity 0.25s ease-in-out; z-index: 10; }
+
+.track-detail { padding-top: 44px; margin-bottom: 0; }
+.track-detail .soundcloud { margin-top: 0; background: #f50; }
+.comments { padding: 1em; }
+.comments-form { background: #eee; padding: 1em; }
+.comments-form textarea { background: #fff; color: #666; border-radius: 5px; font-size: 12px; }
+.comments-form .button { color: #aaa; border-bottom-color: #aaa; }
+.comments-form .button:hover { color: #000; border-bottom-color: #000; }
+.comment-user { margin-bottom: 4px; font-size: 12px; } 
+.comment-text { margin-bottom: 6px; color: #545151; font-size: 12px; line-height: 18px; }
+.comment-datetime { color: #aaa; font-size: 12px; }
+.comment { padding: 1em 40px 1em 0; border-top: 1px solid #eee; position: relative; }
+.comment:first-child { border-top: none; }
+.delete-comment { display: block; position: absolute; text-align: center; width: 40px; height: 40px; font-size: 20px; color: #ddd; line-height: 40px; right: 0; top: 0; text-decoration: none; }
+.delete-comment:hover { color: #666; }
+
+.header .site { padding-top: 55px; }
+
+#deceptionLogo{
+	text-align: center;
+}

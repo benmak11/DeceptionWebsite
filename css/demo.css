@@ -68,6 +68,6 @@ html, body { height: 100%; }
 
 .header .site { padding-top: 55px; }
 
-#deceptionLogo{
-	text-align: center;
+img#deception-logo{
+	padding-top: 50px;
 }

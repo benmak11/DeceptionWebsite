@@ -222,39 +222,54 @@ footer {
 
 
 /* =============================================================================
-	MUSIC PAGE
+	CONTACT PAGE
 ==============================================================================*/
-
-#music-content {
-	margin:auto;
-	width: 900px;
-	background: white;
-	color: black;
+div#contact-wrap {
+	width:100%;
+	max-width: 900px;
+	margin-left:auto;
+	margin-right:auto;
+	background: #333;
+	opacity: 0.8;
 }
 
-#article-heading {
-	padding-left: 10px;
-	padding-top: 5px;
+div#contact-wrap {
+	color: white;	
 }
 
-.post {
-	padding-left: 10px;
+div#contact-wrap h3 {
+	padding-left:10px;
+	padding-top:10px;
+	font-family: "estrangelo Edessa";
+	font-size: 28px;
 	
 }
 
-#soundcloud-embed {
-	max-width: 880px;	
-	margin:auto;
+div#contact-wrap p a {
+	text-decoration: none;
+	
 }
 
-#post-divider {
-	max-width: 900px;
-	width: 100%;	
+a#network-link {
+	font-family: Tahoma, Geneva, sans-serif;
 }
 
-/* =============================================================================
-	CONTACT PAGE
-==============================================================================*/
+
+div#contact-wrap p {
+	padding-left:10px;
+	padding-bottom:10px;
+}
+
+ul#contact-network{
+	list-style:none;
+	margin:auto;	
+}
+
+a#contact-email {
+	color:#F0F;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
 div#content div#left div.block {
   position: relative;
   width: 668px;
@@ -291,5 +306,3 @@ user agent stylesheetp {
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
 }
-
-

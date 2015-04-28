@@ -30,7 +30,7 @@
     <div class="break"></div>
 
     <div id="header">
-      <p id="newsheader"><a href="#"><img src="images/DeceptionLogoImprint.png" style="float:left; " href=""></a></p>
+      <p id="newsheader"><a href="index.html"><img src="images/DeceptionLogoImprint.png" style="float:left; " href=""></a></p>
       <div id="facebook"> 
 
         <a href="https://www.facebook.com/DeceptionRecords" target="_blank"><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/F_icon.svg/2000px-F_icon.svg.png" /> </a>
@@ -45,7 +45,6 @@
         </div>
       </div> <!-- eo header div -->
 
-      <div class="break"></div>
 
       <div id="nav-wrap">
         <div id="navMain">
@@ -63,10 +62,10 @@
               <!-- Collect the nav links, forms, and other content for toggling -->
               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                  <li class=""><a href="#">HOME <span class="sr-only">(current)</span></a></li>
-                  <li><a href="#">MUSIC</a></li>
-                  <li><a href="#">DEMOS</a></li>
-                  <li><a href="#">CONTACT</a></li> 
+                  <li class=""><a href="index.html">HOME <span class="sr-only">(current)</span></a></li>
+                  <li><a href="https://www.facebook.com/DeceptionRecords">MUSIC</a></li>
+                  <li><a href="demo.html">DEMOS</a></li>
+                  <li><a href="contact.html">CONTACT</a></li>  
                 </ul>
               </div> <!-- eo bs-example-navbar-collapse-1 -->
             </div> <!-- eo navbar-header -->
@@ -75,22 +74,22 @@
       </div> <!-- eo navMain -->
     </div> <!-- eo nav-wrap -->
 
-    <div class="break"></div>
+    
 
     <div id="content">
-      <h1>
-        <cufon class="cufon cufon-canvas" alt="CONTACT" style="width: 127px; height: 24px;">
-          <canvas width="139" height="24" style="width: 139px; height: 24px; top: 0px; left: -1px;"></canvas>
-          <cufontext>CONTACT</cufontext>
-        </cufon>
-      </h1>
-
-      <p style="margin-bottom:25px;">
-        <strong>Deception Records</strong><br>
-        <a href="https://www.facebook.com/DeceptionRecords" target="_blank">Facebook</a>
-        <br>
-        E-mail: <a href="mailto:contact.deceptionrec@gmail.com">contact.deceptionrec@gmail.com</a></p>
-
+    	<div id="contact-wrap">
+          <h3>CONTACT </h3>          
+              
+          <p>
+            <strong>Deception Records</strong>
+            
+            <br><a id="network-link" href="https://www.facebook.com/DeceptionRecords" target="_blank">Facebook</a></br>
+            <a id="network-link" href="https://soundcloud.com/deceptionrecords" target="_blank">Soundcloud</a>
+            <br><a id="network-link" href="https://www.youtube.com/DeceptionRec" target="_blank">Youtube</a></br>
+           
+            E-mail: <a id="contact-email" href="mailto:contact.deceptionrec@gmail.com">contact.deceptionrec@gmail.com</a>
+          </p>
+		</div> <!-- eo content-wrap div-->
     </div> <!-- eo content div-->
 
     <div id="footer-break"></div>
@@ -113,7 +112,7 @@
     });
   };
 
-  document.getElementById("footer-content").innerHTML = "<p>&copy;  " + new Date().getFullYear() + " Deception Records | Music Production. All Rights Reserved.</p>";
+  document.getElementById("footer-content").innerHTML = "<p>&copy;  " + new Date().getFullYear() + " Deception Records | All Rights Reserved.</p>";
   </script>
 
 </body>

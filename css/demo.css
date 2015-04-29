@@ -12,8 +12,8 @@
 .content-inner { padding: 2em; }
 #logo { margin: 0 auto; padding-right: 30px; max-width: 100%;height: auto;}
 h1 { font-size: 2em; letter-spacing: -2px; font-weight: bold; margin-bottom: 1em; color: #fff; text-align: center; }
-.button { color: #fff; display: inline-block; text-transform: uppercase; font-size: 1.25em; margin-top: .5em; padding: .2em 0; font-weight: bold; border-bottom: 3px solid #fff; }
-.button:hover { color: #ec1668; border-color: #ec1668; }
+.button { color: #4f0f75; display: inline-block; text-transform: uppercase; font-size: 1.25em; margin-top: .5em; padding: .2em 0; font-weight: bold; /*border-bottom: 3px solid #fff;*/ }
+.button:hover { color: #000000; border-color: #000000; }
 
 
 .button-dropdown-holder { display: inline-block; position: relative; }

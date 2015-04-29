@@ -84,7 +84,7 @@
         <div class="page section-fill">
           <div class="content">
             <a href="/"><img id="deception-logo" src="images/demos_pageLlogo.png"></a>
-            <form action="/mail/submission.php" method="POST" class="validate">
+            <form action="/mail/mail.php" method="POST" class="validate">
               <div class="login-text">
                 <h1>Demo Submission</h1>
                 <p>Welcome to the Deception Demo Submission page. Please make sure to send us 1 - 2 of your best tracks instead of 20.</p>

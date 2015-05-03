@@ -4,12 +4,12 @@
 	margin:auto;
 }
 
-.content { margin-left: auto; margin-right: auto; max-width: 32em;  }
-.content-md { margin-left: auto; margin-right: auto; max-width: 50em; margin-top: 4%; margin-bottom: 4%; }
+.row { margin-left: auto; margin-right: auto; max-width: 32em;  }
+.row-md { margin-left: auto; margin-right: auto; max-width: 50em; margin-top: 4%; margin-bottom: 4%; }
 .field-group { display: block; }
 .error-message { display: inline-block; padding: .5em; margin-bottom: .5em; color: #fff; background: red; font-weight: bold; }
 
-.content-inner { padding: 2em; }
+.row-inner { padding: 2em; }
 #logo { margin: 0 auto; padding-right: 30px; max-width: 100%;height: auto;}
 h1 { font-size: 2em; letter-spacing: -2px; font-weight: bold; margin-bottom: 1em; color: #fff; text-align: center; }
 .button { color: #4f0f75; display: inline-block; text-transform: uppercase; font-size: 1.25em; margin-top: .5em; padding: .2em 0; font-weight: bold; /*border-bottom: 3px solid #fff;*/ }

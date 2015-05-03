@@ -86,6 +86,7 @@ sub {
 }
 img {
   border: 0;
+  margin-left: 25px;
 }
 svg:not(:root) {
   overflow: hidden;
@@ -1077,7 +1078,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #333;
+  color: #ffffff;
   background-color: #fff;
 }
 input,
@@ -1106,7 +1107,7 @@ figure {
   margin: 0;
 }
 img {
-  /*vertical-align: middle;*/
+  vertical-align: middle;
 }
 .img-responsive,
 .thumbnail > img,

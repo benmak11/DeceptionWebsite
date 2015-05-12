@@ -86,7 +86,7 @@ sub {
 }
 img {
   border: 0;
-  margin-left: 25px;
+  
 }
 svg:not(:root) {
   overflow: hidden;

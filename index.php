@@ -1,15 +1,15 @@
 <!doctype html>
 <html>
 <head>
-	<title>Deception Records</title>
+  <title>Deception Records</title>
   <link rel='shortcut icon' href='images/favicon.ico' type='image/x-icon'/ >
 
-	<meta charset="utf-8" />
-	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script src="https://apis.google.com/js/platform.js"></script>
-	<script type="text/javascript" src="js/cufon-yui.js"></script>
-	<script type="text/javascript" src="js/TitilliumMaps.font.js"></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://apis.google.com/js/platform.js"></script>
+  <script type="text/javascript" src="js/cufon-yui.js"></script>
+  <script type="text/javascript" src="js/TitilliumMaps.font.js"></script>
 
   <script src= "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src= "js/bootstrap.js"></script>
@@ -33,7 +33,6 @@
           version    : 'v2.1'
         });
       };
-
       (function(d, s, id){
          var js, fjs = d.getElementsByTagName(s)[0];
          if (d.getElementById(id)) {return;}
@@ -43,7 +42,7 @@
        }(document, 'script', 'facebook-jssdk'));
     </script>
 
-	<div id="wrapper">
+  <div id="wrapper">
 
     <div class="break"></div>
 
@@ -201,7 +200,6 @@
 
   <script>
   window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));
-
   window.fbAsyncInit = function() {
     FB.init({
       appId      : 'your-app-id',
@@ -209,7 +207,6 @@
       version    : 'v2.1'
     });
   };
-
   document.getElementById("footer-content").innerHTML = "<p>&copy;  " + new Date().getFullYear() + " Deception Records | All Rights Reserved.</p>";
   </script>
 

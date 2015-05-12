@@ -114,13 +114,13 @@
           <!-- Wrapper for slides -->
           <div class="carousel-inner" role="listbox">
 
-            <div class="item active"> <a href="#"><img src="images/ultra.jpg" alt="Chania"></a>
+            <div class="item active"> <a href="#"><img src="images/Welcome.png" alt="Chania"></a>
             </div>
 
-            <div class="item"> <a href="#"><img src="images/fedde.jpg" alt="Chania"></a>
+            <div class="item"> <a href="#"><img src="images/Epic.jpg" alt="Chania"></a>
             </div>
 
-            <div class="item"> <a href="#"><img src="images/aus.jpg" alt="Chania"></a>
+            <div class="item"> <a href="#"><img src="images/Social_Media.png" alt="Chania"></a>
             </div>
           </div> <!-- eo carousel-inner div -->
 

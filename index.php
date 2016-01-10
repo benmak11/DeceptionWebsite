@@ -48,7 +48,7 @@
 
     <div id="header">
       <p id="newsheader"><a href="index.html"><img src="images/DeceptionLogoImprint.png" style="float:left; " href=""></a></p>
-      <div id="facebook"> 
+      <div id="facebook">
 
         <a href="https://www.facebook.com/DeceptionRecords" target="_blank"><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/F_icon.svg/2000px-F_icon.svg.png" /> </a>
       </div>
@@ -62,7 +62,7 @@
         </div>
       </div> <!-- eo header div -->
 
-      
+
 
       <div id="nav-wrap">
         <div id="navMain">
@@ -84,7 +84,7 @@
                   <li class=""><a href="index.php">HOME <span class="sr-only">(current)</span></a></li>
                   <li><a href="https://www.facebook.com/DeceptionRecords">MUSIC</a></li>
                   <li><a href="demo.php">DEMOS</a></li>
-                  <li><a href="contact.php">CONTACT</a></li> 
+                  <li><a href="contact.php">CONTACT</a></li>
                 </ul>
               </div> <!-- eo bs-example-navbar-collapse-1 -->
             </div> <!-- eo navbar-header -->
@@ -93,13 +93,13 @@
       </div> <!-- eo navMain -->
     </div> <!-- eo nav-wrap -->
 
-    
+
 
     <div class="content">
-      <div id="main-box"> <a href="#"><img align="center" src="images/mainbox.jpg"></a>
+      <div id="main-box"> <a href="#" target="_blank"><img align="center" src="images/Top_Bar_Martyn_Lights_the_remixes.png"></a>
       </div>
 
-      <div class="break"></div> 
+      <div class="break"></div>
 
       <div id="slider-main">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -113,10 +113,10 @@
           <!-- Wrapper for slides -->
           <div class="carousel-inner" role="listbox">
 
-            <div class="item active"> <a href="#"><img src="images/Welcome.png" alt="Chania"></a>
+            <div class="item active"> <a href="https://soundcloud.com/deceptionrecords/martyn-lights" target="_blank"><img src="images/Slider_Release_Martyn_lights.png" alt="Chania"></a>
             </div>
 
-            <div class="item"> <a href="#"><img src="images/RLAX.png" alt="Chania"></a>
+            <div class="item"> <a href="https://soundcloud.com/deceptionrecords/rlax-children-of-the-night-feat-taylor-lynn-original-mix-out-now" target="_blank"><img src="images/Slider_Release_RLAX_Children_of_the_night.png" alt="Chania"></a>
             </div>
 
             <div class="item"> <a href="#"><img src="images/Social_Media.png" alt="Chania"></a>
@@ -137,7 +137,7 @@
 
       <div class="break"></div>
 
-      <div id="bottom-box"> <a href="#"><img align="center" src="images/bottombox.jpg"></a>
+      <div id="bottom-box"> <a href="https://soundcloud.com/nothing-but-feels" target="_blank"><img align="center" src="images/bottombox_nothing_but_feels.png"></a>
       </div>
 
       <div class="break"></div>
@@ -177,8 +177,8 @@
 
             <div class="break"></div>
 
-          
-          </div> 
+
+          </div>
 
           <div class="break"></div>
 
